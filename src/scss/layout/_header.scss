@@ -2,9 +2,7 @@
     background-image: url(../images/cover.jpg);
     background-repeat: no-repeat;
     background-position: top;
-    font-family: RobotoSlab;
-  
-    
+    font-family: RobotoSlab;   
 } 
 .menu{
     background-color: #0271bc;
@@ -20,12 +18,20 @@
     font-weight: bold;
     height: 100vh;
     justify-content: center;
-    padding-top: 284px;
+    /*padding-top: 284px;*/
     color: white;
 }
 
 h1 {
     font-size: 42px;
-    
-
 }
+.header p{
+    font-size: 16px;
+    font-weight: normal;
+}
+.ico-scroll-down{
+    background-color: white;
+    width: 45px;
+    height: 45px;
+}
+    
