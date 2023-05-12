@@ -38,6 +38,9 @@ h1 {
   width: 45px;
   height: 45px; }
 
+.hero {
+  height: 100vh; }
+
 .hero_article {
   padding-left: 15px;
   padding-right: 15px;
@@ -59,10 +62,19 @@ h1 {
 h2 {
   padding-top: 1px; }
 
-.go {
-  color: #f26002;
-  border-color: #f26002;
-  border-radius: 70%;
-  border: 1px; }
+.btn-go {
+  background-color: white;
+  font-size: 20px;
+  border-radius: 25px;
+  padding: 10px 25px;
+  text-align: left;
+  text-decoration: none;
+  font-family: Roboto;
+  font-weight: 500;
+  border: 2px solid orange;
+  color: orange;
+  /*margin-left: 15px;
+    margin-top: 30px;*/
+  margin: 30px 200px 45px 15px; }
 
 /*# sourceMappingURL=main.css.map */
