@@ -1,0 +1,31 @@
+.header{
+    background-image: url(../images/cover.jpg);
+    background-repeat: no-repeat;
+    background-position: top;
+    font-family: RobotoSlab;
+  
+    
+} 
+.menu{
+    background-color: #0271bc;
+    width: 44px;
+    height: 44px;
+    position: fixed; 
+    padding: 15px 14px;  
+}
+.header_text{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-weight: bold;
+    height: 100vh;
+    justify-content: center;
+    padding-top: 284px;
+    color: white;
+}
+
+h1 {
+    font-size: 42px;
+    
+
+}
