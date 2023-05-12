@@ -1,0 +1,32 @@
+.section_blue{
+    background-color: #eff9ff;
+    display:grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 5fr;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 60px;
+    justify-items: center;
+}
+.sectb_title{
+    font-family: RobotoSlab;
+    font-size: 24px;
+    font-weight: bold;
+    padding-bottom: 45px;
+}
+.sectb_article{
+    font-size:18px;
+    padding-bottom: 45px;
+    width: 180px;  
+}
+.button{
+    font-size: 18px;
+    font-family: Roboto;
+    font-weight: medium;
+    background-color: #f26002;
+    color:#eff9ff;
+    text-decoration: none;
+    padding: 5px 30px 5px 30px;
+    border-radius: 23px;
+
+}
