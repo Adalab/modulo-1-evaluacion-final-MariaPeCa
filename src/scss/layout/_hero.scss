@@ -12,7 +12,7 @@
     font-weight: bold;
     height: 100vh;
     justify-content: center;
-    padding-top: 270px;
+    padding-top: 180px;
     color: white;
     align-items: center;
 }
@@ -26,10 +26,21 @@ h1 {
     font-family: Roboto;
     
 }
-.ico-scroll-down{
+.scroll{
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
     background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 70px;
+    
+}
+.ico-scroll-down{
     width: 20px;
-    height: 10px;
+    height: 11.7px;
+   
     
     
     
