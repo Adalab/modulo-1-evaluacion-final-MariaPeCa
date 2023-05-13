@@ -1,0 +1,17 @@
+.footer {
+    background-color: #304268;
+}
+.arrow {
+    background-color: white;
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    display:flex;
+    justify-content: space-around;
+    align-items: flex-end;
+    margin:auto;
+    transform:translateY(-50%)
+}
+.fa-sharp fa-solid fa-heart fa-beat {
+    color: aqua;
+}
