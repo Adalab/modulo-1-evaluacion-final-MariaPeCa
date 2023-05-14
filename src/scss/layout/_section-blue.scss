@@ -1,13 +1,19 @@
 .section_blue{
-    background-color: #eff9ff;
-    display:grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: 5fr;
+    background-color: $colorIceBlue;
+    /*grid-template-columns: 1fr;
+    grid-template-rows: 5fr;*/
     text-align: center;
     padding-top: 30px;
     padding-bottom: 60px;
     justify-items: center;
 }
+.container{
+    display:grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 3fr;
+    justify-items:center;
+}
+
 .sectb_title{
     font-family: RobotoSlab;
     font-size: 24px;
@@ -33,10 +39,9 @@
     font-size: 18px;
     font-family: Roboto;
     font-weight: medium;
-    background-color: #f26002;
-    color:#eff9ff;
+    background-color: $colorOrange;
+    color: $colorWhite;
     text-decoration: none;
     padding: 5px 30px 5px 30px;
     border-radius: 23px;
-
 }
