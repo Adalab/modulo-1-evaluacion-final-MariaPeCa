@@ -1,5 +1,15 @@
 .footer {
     background-color: #304268;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    text-decoration: none;
+    color: #ffffff; 
+    padding-bottom: 45px;
+    gap:30px;
+    font-size:16px;
+    font-family: Roboto;
+    
 }
 .arrow {
     background-color: white;
@@ -15,3 +25,12 @@
 .heart {
     color: #f26002;
 }
+
+.menu_item{
+    list-style-type:none;
+    text-decoration: none;
+    color:#ffffff
+}
+    
+
+
