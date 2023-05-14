@@ -6,32 +6,31 @@
 }
 .sectw_mini {
     font-size:14px;
-    color: #8ccbea;
+    color: $colorLightBlue;
     padding-top: 30px;
-    font-family: Roboto;
+    font-family: $textFont;
     padding-bottom: 5px;
 }
 .sectw_title {
-    font-size:24px;
-    
+    font-size:24px;   
 }
 .sectw_p {
-    font-family: Roboto;
+    font-family: $textFont;
     font-size:18px;   
     padding-top: 15px; 
-    color: #4a4a4a;  
+    color: $colorGrey;  
 }
 .btn-go {
-    background-color: white;
+    background-color: $colorWhite;
     font-size: 20px;
     border-radius: 25px;
     padding: 10px 25px;
     text-align: left;
     text-decoration: none;
-    font-family: Roboto;
+    font-family: $textFont;
     font-weight:500;
-    border: 2px solid orange;
-    color: orange;
+    border: 2px solid $colorOrange;
+    color: $colorOrange;
     margin: 30px 200px 45px 15px;
 } 
 

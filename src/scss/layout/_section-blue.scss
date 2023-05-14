@@ -1,7 +1,5 @@
 .section_blue{
     background-color: $colorIceBlue;
-    /*grid-template-columns: 1fr;
-    grid-template-rows: 5fr;*/
     text-align: center;
     padding-top: 30px;
     padding-bottom: 60px;
@@ -15,7 +13,7 @@
 }
 
 .sectb_title{
-    font-family: RobotoSlab;
+    font-family: $titleFont;
     font-size: 24px;
     font-weight: bold;
     padding-bottom: 45px;
@@ -31,13 +29,13 @@
     font-size: 18px;
 }
 .sectb_text{
-    font-family: Roboto;
+    font-family: $textFont;
     font-size: 18px;
     font-weight: normal;
 }
 .button{
     font-size: 18px;
-    font-family: Roboto;
+    font-family: $textFont;
     font-weight: medium;
     background-color: $colorOrange;
     color: $colorWhite;

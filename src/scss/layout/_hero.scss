@@ -2,7 +2,7 @@
   background-image: url(../images/cover.jpg);
   background-repeat: no-repeat;
   background-position: top;
-  font-family: RobotoSlab;
+  font-family: $titleFont;
 }
 .hero_article {
   display: flex;
@@ -11,24 +11,23 @@
   font-weight: bold;
   height: 100vh;
   justify-content: center;
-  padding-top: 180px;
-  color: white;
+  padding-top: 250px;
+  color: $colorWhite;
   align-items: center;
 }
-
 .title {
   font-size: 42px;
 }
 .hero p {
   font-size: 16px;
   font-weight: normal;
-  font-family: Roboto;
+  font-family: $textFont;
 }
 .scroll {
   width: 45px;
   height: 45px;
   border-radius: 50%;
-  background-color: white;
+  background-color: $colorWhite;
   display: flex;
   align-items: center;
   justify-content: center;
