@@ -4,35 +4,50 @@
     padding-top: 30px;
     padding-bottom: 60px;
     justify-items: center;
-}
-.container{
-    display:grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: 3fr;
-    justify-items:center;
-}
-
-.sectb__title{
+    &__title{
     font-family: $titleFont;
     font-size: 24px;
     font-weight: bold;
     padding-bottom: 45px;
+    @media all and (min-width: 768px){
+        font-size: 26px;
+    }
+    }
 }
-.sectb__article{
-    font-size:18px;
-    font-weight: bold;
-    padding-bottom: 45px;
-    width: 180px;  
+.container{
+    display:grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    justify-items:center;
+    @media all and (min-width: 768px){
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr;
+        gap: 50px;
+        margin: 0 40px 75px 36px; 
+    }
+    &__article{
+        padding-bottom: 45px;
+        width: 180px;
+        @media all and (min-width: 768px){
+          display: inline;
+    }
+    }
+    &__title{
+        font-weight: bold;
+        font-size: 18px;
+        @media all and (min-width: 768px){
+            font-size: 24px;
+        }
+    }
+    &__text{
+        font-family: $textFont;
+        font-size: 18px;
+        font-weight: normal;
+        @media all and (min-width: 768px){
+            font-size: 20px;
+        }
+    }
 }
-.sectb__minititle{
-    font-weight: bold;
-    font-size: 18px;
-}
-.sectb__text{
-    font-family: $textFont;
-    font-size: 18px;
-    font-weight: normal;
-}
+
 .button{
     font-size: 18px;
     font-family: $textFont;
@@ -42,4 +57,7 @@
     text-decoration: none;
     padding: 5px 30px 5px 30px;
     border-radius: 23px;
+    @media all and (min-width: 768px){
+        font-size: 20px;
+    } 
 }
