@@ -1,26 +1,25 @@
-.sectw_article{
+.sectw__article{
     padding-left: 15px;
     padding-right: 15px;
     display: flex;
     flex-direction: column;
 }
-.sectw_mini {
-    font-size:14px;
+.sectw__mini {
     color: $colorLightBlue;
     padding-top: 30px;
     font-family: $textFont;
     padding-bottom: 5px;
 }
-.sectw_title {
+.sectw__title {
     font-size:24px;   
 }
-.sectw_p {
+.sectw__p {
     font-family: $textFont;
     font-size:18px;   
     padding-top: 15px; 
     color: $colorGrey;  
 }
-.btn-go {
+.btn__go {
     background-color: $colorWhite;
     font-size: 20px;
     border-radius: 25px;

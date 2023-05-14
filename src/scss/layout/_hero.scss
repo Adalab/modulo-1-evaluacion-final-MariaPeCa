@@ -4,7 +4,7 @@
   background-position: top;
   font-family: $titleFont;
 }
-.hero_article {
+.hero__article {
   display: flex;
   flex-direction: column;
   text-align: center;
@@ -17,8 +17,11 @@
 }
 .title {
   font-size: 42px;
+@media all and (min-width:768px) {
+  font-size: 80px;
 }
-.hero p {
+}
+.hero__text {
   font-size: 16px;
   font-weight: normal;
   font-family: $textFont;
@@ -33,7 +36,7 @@
   justify-content: center;
   margin-top: 70px;
 }
-.ico-scroll-down {
+.ico-scroll-down{
   width: 20px;
   height: 11.7px;
 }

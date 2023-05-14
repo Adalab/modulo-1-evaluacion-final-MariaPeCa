@@ -1,4 +1,4 @@
-.section_blue{
+.sectb{
     background-color: $colorIceBlue;
     text-align: center;
     padding-top: 30px;
@@ -12,23 +12,23 @@
     justify-items:center;
 }
 
-.sectb_title{
+.sectb__title{
     font-family: $titleFont;
     font-size: 24px;
     font-weight: bold;
     padding-bottom: 45px;
 }
-.sectb_article{
+.sectb__article{
     font-size:18px;
     font-weight: bold;
     padding-bottom: 45px;
     width: 180px;  
 }
-.sectb_minititle{
+.sectb__minititle{
     font-weight: bold;
     font-size: 18px;
 }
-.sectb_text{
+.sectb__text{
     font-family: $textFont;
     font-size: 18px;
     font-weight: normal;
