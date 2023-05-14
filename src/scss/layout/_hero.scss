@@ -1,30 +1,36 @@
 .hero {
   background-image: url(../images/cover.jpg);
-  background-repeat: no-repeat;
-  background-position: top;
+  background-position: center;
+  background-size: cover;
   font-family: $titleFont;
-}
-.hero__article {
-  display: flex;
-  flex-direction: column;
-  text-align: center;
-  font-weight: bold;
   height: 100vh;
-  justify-content: center;
-  padding-top: 250px;
-  color: $colorWhite;
-  align-items: center;
-}
-.title {
-  font-size: 42px;
-@media all and (min-width:768px) {
-  font-size: 80px;
-}
-}
-.hero__text {
-  font-size: 16px;
-  font-weight: normal;
-  font-family: $textFont;
+  &__article {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-weight: bold;
+    justify-content: center;
+    color: $colorWhite;
+    align-items: center;
+  }
+  &__title {
+    padding-top: 284px;
+    font-size: 42px;
+    @media all and (min-width: 768px) {
+      font-size: 80px;
+    }
+    @media all and (min-width: 1280px) {
+      font-size: 100px;
+    }
+  }
+  &__text {
+    font-size: 16px;
+    font-weight: normal;
+    font-family: $textFont;
+    @media all and (min-width: 768px){
+      font-size: 24px;
+    }
+  }
 }
 .scroll {
   width: 45px;
@@ -36,7 +42,8 @@
   justify-content: center;
   margin-top: 70px;
 }
-.ico-scroll-down{
+.ico-scroll-down {
   width: 20px;
   height: 11.7px;
 }
+
