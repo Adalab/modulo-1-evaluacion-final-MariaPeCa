@@ -1,43 +1,40 @@
-.hero{
-    background-image: url(../images/cover.jpg);
-    background-repeat: no-repeat;
-    background-position: top;
-    font-family: RobotoSlab; 
-     
+.hero {
+  background-image: url(../images/cover.jpg);
+  background-repeat: no-repeat;
+  background-position: top;
+  font-family: RobotoSlab;
 }
-.hero_article{
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    font-weight: bold;
-    height: 100vh;
-    justify-content: center;
-    padding-top: 180px;
-    color: white;
-    align-items: center;
+.hero_article {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  font-weight: bold;
+  height: 100vh;
+  justify-content: center;
+  padding-top: 180px;
+  color: white;
+  align-items: center;
 }
 
 .title {
-    font-size: 42px;
+  font-size: 42px;
 }
-.hero p{
-    font-size: 16px;
-    font-weight: normal;
-    font-family: Roboto;
-    
+.hero p {
+  font-size: 16px;
+  font-weight: normal;
+  font-family: Roboto;
 }
-.scroll{
-    width: 45px;
-    height: 45px;
-    border-radius: 50%;
-    background-color: white;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-top: 70px;
-    
+.scroll {
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 70px;
 }
-.ico-scroll-down{
-    width: 20px;
-    height: 11.7px;   
+.ico-scroll-down {
+  width: 20px;
+  height: 11.7px;
 }
