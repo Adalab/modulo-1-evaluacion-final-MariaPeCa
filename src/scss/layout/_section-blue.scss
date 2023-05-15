@@ -27,9 +27,9 @@
         gap: 50px;
         margin: 0 40px 75px 36px; 
     }
-    @media all and (min-width: 768px){
-        margin: 0 40px 75px 40px;
-        gap: 40px;
+    @media all and (min-width: 1280px){
+        margin: 0 50px 75px 50px;
+        gap: 60px;
     }
     &__article{
         padding-bottom: 45px;
@@ -43,6 +43,9 @@
         font-size: 18px;
         @media all and (min-width: 768px){
             font-size: 24px;
+        }
+        @media all and (min-width: 1280px){
+            padding-bottom: 10px;
         }
         
     }
