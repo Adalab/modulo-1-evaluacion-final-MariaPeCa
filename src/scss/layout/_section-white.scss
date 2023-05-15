@@ -3,21 +3,33 @@
     @media all and (min-width:768px) {
         padding: 0 39px 0 39px;
     }
+    @media all and (min-width: 1280px){
+        padding: 0 200px 0 200px;
+    }
     &__article{
         display: flex;
-        flex-direction: column; 
+        flex-direction: column;     
     }
     &__mini {
         color: $colorLightBlue;
         padding-top: 30px;
         font-family: $textFont;
         padding-bottom: 5px;
+        @media all and (min-width: 768px) {
+            font-size: 14px;
+        }
+        @media all and (min-width: 1280px){
+            font-size: 16px;
+        }
     }
     &__title {
         font-size:24px; 
         @media all and (min-width: 768px) {
             font-size: 26px;
             padding-bottom: 10px;
+        }
+        @media all and (min-width: 1280px){
+            font-size: 32px;
         }
     }
     &__p {
@@ -29,6 +41,9 @@
         @media all and (min-width: 768px) {
             font-size: 20px;
             line-height: 1.5;
+        }
+        @media all and (min-width: 1280px){
+            font-size: 20px;
         }
     }
 }
@@ -51,6 +66,10 @@
     }
     @media all and (min-width: 768px) {
         margin-right: 580px;
+    }
+    @media all and (min-width: 1280px) {
+        margin-right: 700px;
+        margin-left: 5px;
     }
 } 
 
