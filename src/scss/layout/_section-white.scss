@@ -15,9 +15,9 @@
     }
     &__title {
         font-size:24px; 
-        /*font-weight: bold;*/
         @media all and (min-width: 768px) {
             font-size: 26px;
+            padding-bottom: 10px;
         }
     }
     &__p {
