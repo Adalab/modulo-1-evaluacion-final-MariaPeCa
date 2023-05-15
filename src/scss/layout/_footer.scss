@@ -24,16 +24,27 @@
 }
 .box{
     display:flex;
+    flex-direction: row-reverse;
+    text-align: left;
+    justify-content: space-around;
 }
-.heart {
-    color: $colorOrange;
+.box__menu{
+    
+}
+.box__social{
+
+}
+.box__small{
+    order:-1;
 }
 
-.menu_item{
+.box__item{
     list-style-type:none;
     text-decoration: none;
     color: $colorWhite;
 }
-    
+.heart {
+    color: $colorOrange;
+}    
 
 
