@@ -4,7 +4,7 @@
         padding: 0 39px 0 39px;
     }
     @media all and (min-width: 1280px){
-        padding: 0 200px 0 200px;
+        padding: 0 270px 0 270px;
     }
     &__article{
         display: flex;
@@ -41,6 +41,7 @@
         @media all and (min-width: 768px) {
             font-size: 20px;
             line-height: 1.5;
+            padding-right: 10px;
         }
         @media all and (min-width: 1280px){
             font-size: 20px;
@@ -68,7 +69,6 @@
         margin-right: 580px;
     }
     @media all and (min-width: 1280px) {
-        margin-right: 700px;
         margin-left: 5px;
     }
 } 
