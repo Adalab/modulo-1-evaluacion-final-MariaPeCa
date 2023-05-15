@@ -60,10 +60,10 @@
     border: 2px solid $colorOrange;
     color: $colorOrange;
     margin: 30px 200px 45px 15px;
-    &:hover {
-        background-color: $colorWhite;
-        color: $colorOrange;
-    }
+    //&:hover {
+        //background-color: $colorWhite;
+       // color: $colorOrange;
+    //}
     @media all and (min-width: 768px) {
         margin-right: 580px;
     }

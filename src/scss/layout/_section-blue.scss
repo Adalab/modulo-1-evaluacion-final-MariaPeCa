@@ -12,6 +12,9 @@
     @media all and (min-width: 768px){
         font-size: 26px;
     }
+    @media all and (min-width: 1280px){
+        font-size: 32px;
+    }
     }
 }
 .container{
@@ -23,6 +26,10 @@
         grid-template-rows: 1fr;
         gap: 50px;
         margin: 0 40px 75px 36px; 
+    }
+    @media all and (min-width: 768px){
+        margin: 0 65px 75px 65px;
+        gap: 60px;
     }
     &__article{
         padding-bottom: 45px;
@@ -37,6 +44,7 @@
         @media all and (min-width: 768px){
             font-size: 24px;
         }
+        
     }
     &__text{
         font-family: $textFont;
@@ -55,9 +63,13 @@
     background-color: $colorOrange;
     color: $colorWhite;
     text-decoration: none;
-    padding: 5px 30px 5px 30px;
+    padding: 10px 35px 10px 35px;
     border-radius: 23px;
     @media all and (min-width: 768px){
         font-size: 20px;
     } 
+    @media all and (min-width: 1280px){
+        padding: 10px 50px 10px 50px;
+        
+    }
 }
