@@ -1,78 +1,74 @@
 .sectw {
-    padding: 0 15px 0 15px;
-    @media all and (min-width:768px) {
-        padding: 0 39px 0 39px;
+  padding: 0 15px 0 15px;
+  @media all and (min-width: 768px) {
+    padding: 0 39px 0 39px;
+  }
+  @media all and (min-width: 1280px) {
+    padding: 0 270px 0 270px;
+  }
+  &__article {
+    display: flex;
+    flex-direction: column;
+  }
+  &__mini {
+    color: $colorLightBlue;
+    padding-top: 30px;
+    font-family: $textFont;
+    padding-bottom: 5px;
+    @media all and (min-width: 768px) {
+      font-size: 14px;
     }
-    @media all and (min-width: 1280px){
-        padding: 0 270px 0 270px;
+    @media all and (min-width: 1280px) {
+      font-size: 16px;
     }
-    &__article{
-        display: flex;
-        flex-direction: column;     
+  }
+  &__title {
+    font-size: 24px;
+    @media all and (min-width: 768px) {
+      font-size: 26px;
+      padding-bottom: 10px;
     }
-    &__mini {
-        color: $colorLightBlue;
-        padding-top: 30px;
-        font-family: $textFont;
-        padding-bottom: 5px;
-        @media all and (min-width: 768px) {
-            font-size: 14px;
-        }
-        @media all and (min-width: 1280px){
-            font-size: 16px;
-        }
+    @media all and (min-width: 1280px) {
+      font-size: 32px;
     }
-    &__title {
-        font-size:24px; 
-        @media all and (min-width: 768px) {
-            font-size: 26px;
-            padding-bottom: 10px;
-        }
-        @media all and (min-width: 1280px){
-            font-size: 32px;
-        }
+  }
+  &__p {
+    font-family: $textFont;
+    font-size: 18px;
+    padding-top: 15px;
+    color: $colorGrey;
+    line-height: 1.67;
+    @media all and (min-width: 768px) {
+      font-size: 20px;
+      line-height: 1.5;
+      padding-right: 10px;
     }
-    &__p {
-        font-family: $textFont;
-        font-size:18px;   
-        padding-top: 15px; 
-        color: $colorGrey;  
-        line-height: 1.67;
-        @media all and (min-width: 768px) {
-            font-size: 20px;
-            line-height: 1.5;
-            padding-right: 10px;
-        }
-        @media all and (min-width: 1280px){
-            font-size: 20px;
-        }
+    @media all and (min-width: 1280px) {
+      font-size: 20px;
     }
+  }
 }
 
 .btn__go {
-    background-color: $colorWhite;
-    font-size: 20px;
-    border-radius: 25px;
-    padding: 10px 25px;
-    text-align: center;
-    text-decoration: none;
-    font-family: $textFont;
-    font-weight:500;
-    border: 2px solid $colorOrange;
-    color: $colorOrange;
-    margin: 30px 200px 45px 15px;
-    //&:hover {
-        //background-color: $colorWhite;
-       // color: $colorOrange;
-    //}
-    @media all and (min-width: 768px) {
-        margin-right: 580px;
-    }
-    @media all and (min-width: 1280px) {
-        margin-left: 5px;
-    }
-} 
-
-
-
-    
+  background-color: $colorWhite;
+  font-size: 20px;
+  border-radius: 25px;
+  padding: 10px 25px;
+  text-align: center;
+  text-decoration: none;
+  font-family: $textFont;
+  font-weight: 500;
+  border: 2px solid $colorOrange;
+  color: $colorOrange;
+  margin: 30px 200px 45px 15px;
+  &:hover {
+    background-color: $colorOrange;
+    color: $colorWhite;
+  }
+  @media all and (min-width: 768px) {
+    margin-right: 580px;
+  }
+  @media all and (min-width: 1280px) {
+    margin-left: 5px;
+  }
+}

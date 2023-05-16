@@ -68,11 +68,15 @@
     text-decoration: none;
     padding: 10px 35px 10px 35px;
     border-radius: 23px;
+    &:hover {
+        background-color: $colorWhite;
+        color: $colorOrange;
+        border: solid 2px $colorOrange;
+      }
     @media all and (min-width: 768px){
         font-size: 20px;
     } 
     @media all and (min-width: 1280px){
-        padding: 10px 50px 10px 50px;
-        
+        padding: 10px 50px 10px 50px;   
     }
 }
