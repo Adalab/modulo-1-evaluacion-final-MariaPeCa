@@ -16,42 +16,42 @@
     font-family: $textFont;
     padding-bottom: 5px;
     @media all and (min-width: 768px) {
-      font-size: 14px;
+      font-size: 1.4rem;
     }
     @media all and (min-width: 1280px) {
-      font-size: 16px;
+      font-size: 1.6rem;
     }
   }
   &__title {
-    font-size: 24px;
+    font-size: 2.4rem;
     @media all and (min-width: 768px) {
-      font-size: 26px;
+      font-size: 2.6rem;
       padding-bottom: 10px;
     }
     @media all and (min-width: 1280px) {
-      font-size: 32px;
+      font-size: 3.2rem;
     }
   }
   &__p {
     font-family: $textFont;
-    font-size: 18px;
+    font-size: 1.8rem;
     padding-top: 15px;
     color: $colorGrey;
     line-height: 1.67;
     @media all and (min-width: 768px) {
-      font-size: 20px;
+      font-size: 2rem;
       line-height: 1.5;
       padding-right: 10px;
     }
     @media all and (min-width: 1280px) {
-      font-size: 20px;
+      font-size: 2rem;
     }
   }
 }
 
 .btn__go {
   background-color: $colorWhite;
-  font-size: 20px;
+  font-size: 2rem;
   border-radius: 25px;
   padding: 10px 25px;
   text-align: center;

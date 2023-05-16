@@ -6,14 +6,14 @@
     justify-items: center;
     &__title{
     font-family: $titleFont;
-    font-size: 24px;
+    font-size: 2.4rem;
     font-weight: bold;
     padding-bottom: 45px;
     @media all and (min-width: 768px){
-        font-size: 26px;
+        font-size: 2.6rem;
     }
     @media all and (min-width: 1280px){
-        font-size: 32px;
+        font-size: 3.2rem;
     }
     }
 }
@@ -40,7 +40,7 @@
     }
     &__title{
         font-weight: bold;
-        font-size: 18px;
+        font-size: 1.8rem;
         @media all and (min-width: 768px){
             font-size: 24px;
         }
@@ -51,16 +51,16 @@
     }
     &__text{
         font-family: $textFont;
-        font-size: 18px;
+        font-size: 1.8rem;
         font-weight: normal;
         @media all and (min-width: 768px){
-            font-size: 20px;
+            font-size: 2rem;
         }
     }
 }
 
 .button{
-    font-size: 18px;
+    font-size: 1.8rem;
     font-family: $textFont;
     font-weight: medium;
     background-color: $colorOrange;
@@ -74,7 +74,7 @@
         border: solid 2px $colorOrange;
       }
     @media all and (min-width: 768px){
-        font-size: 20px;
+        font-size: 2rem;
     } 
     @media all and (min-width: 1280px){
         padding: 10px 50px 10px 50px;   
