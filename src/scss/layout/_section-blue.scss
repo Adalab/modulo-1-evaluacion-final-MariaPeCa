@@ -72,6 +72,7 @@
         background-color: $colorWhite;
         color: $colorOrange;
         border: solid 2px $colorOrange;
+        transition-duration: 2s;
       }
     @media all and (min-width: 768px){
         font-size: 2rem;
